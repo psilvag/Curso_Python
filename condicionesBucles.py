@@ -39,5 +39,5 @@ while(val<100):
     val*=2
 print('ya termino')
 
-while True:
-     print('hola')
+# while True:
+#      print('hola')
