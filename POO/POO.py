@@ -49,14 +49,14 @@ print(player2.plays)
 
 
 class Employee:
-    def __init__(self,ID=None,salary=None,departament=None):
+    def __init__(self,ID=None,salary:float=None,departament=None):
        self.ID=ID
        self.salary=salary,
        self.departament=departament
     def tax(self):
         return  self.salary*0.2
     def salary_per_day(self):
-        return self.salary/24
+        return self.salary/24.00
     def demo(self,a,b,c,d=5,e=None):
         print("a =",a)
         print("b =",b)
@@ -66,7 +66,7 @@ class Employee:
         
     
     
-employee=Employee(220,4300,"ENG")
+employee=Employee(220,4300.00,"ENG")
 print(employee.salary)
 # print("TAX",employee.tax())
 # print("SALARY PER DAY",employee.salary_per_day())

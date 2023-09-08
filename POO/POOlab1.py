@@ -1,6 +1,6 @@
 
 
-
+# Ejericio de creacion de objetos
 class Student:
     def __init__(self,name,Physics,Chemestry,Biology) -> None:
         self.name=name
