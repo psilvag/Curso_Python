@@ -1,4 +1,4 @@
- 
+ #HERENCIA 
 class Vehicle:
     def __init__(self,make,color,model):
         self.make=make
@@ -12,6 +12,7 @@ class Vehicle:
 class car(Vehicle):
     def __init__(self, make, color, model,numdoors):
         super().__init__(make, color, model)
+       # Vehicle().__init__(make, color, model) #otra forma de hacerlo
         self.numdoors=numdoors
     
     def printDetails(self):
@@ -21,3 +22,4 @@ class car(Vehicle):
 tesla=car('Tesla','red',2019,5)
 tesla.printDetails()
 tesla.show_car()
+
