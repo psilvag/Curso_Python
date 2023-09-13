@@ -1,4 +1,6 @@
 
+#Ejercicio de encapsulamiento 
+
 class rectangle:
     def __init__(self,length:float,width:float) -> None:
         self.__length=length
