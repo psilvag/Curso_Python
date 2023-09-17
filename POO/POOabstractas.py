@@ -29,7 +29,8 @@ class Triangle(Shape):
              
     def perimeter(self):
         pass
-
+    def volumen(self):
+        pass
    
 
 square= Square(4)
