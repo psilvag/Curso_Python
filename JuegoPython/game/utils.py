@@ -17,5 +17,5 @@ def open_json_to_dict(path:str)->dict:
 
 
 
-print(open_json_to_dict("../app/data/json_1_arnaldor.json"))
+
     
